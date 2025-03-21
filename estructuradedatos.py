@@ -15,7 +15,18 @@ numeros = [1,2,3,4,5,6,'MervyMulatillo',True,10,11,12]
 # Las listas son miutavles
 # si permiten valores duplicados
 print(numeros)
-print(numero[6])
+numeros.append("Mulatillo")
+print("================== des pues de agregar ===================")
+print(numeros)
+print(numeros[6])
+print("================== despues de meter un valor ===================")
+numeros[6] = 19
+print(numeros)
+numeros.remove(2)
+print("================== despues de eliminar ===================")
+print(numeros)
+
+
 
 #2.- Tuplas
 numeros_primeros=(1,2,3,4,5,6,'MervyMulatillo',True,10,11,12)
